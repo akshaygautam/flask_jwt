@@ -43,9 +43,11 @@ source venv/bin/activate  # On Windows, use `venv\Scripts\activate`
 pip install -r requirements.txt
 
 
-FLASK_APP=app:create_app
-DATABASE_URI=sqlite:///app.db
-JWT_SECRET_KEY=your_jwt_secret_key
+FLASK_SECRET_KEY=dghwedkjcbnkurhfwejcnj
+FLASK_DEBUG=True
+FLASK_SQLALCHEMY_DATABASE_URI=sqlite:///db.sqlite3
+FLASK_SQLALCHEMY_ECHO=True
+FLASK_JWT_SECRET_KEY=e2bcff66d508aa933df986dd
 
 
 flask db init
