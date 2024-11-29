@@ -1,0 +1,47 @@
+# Python-related
+*.pyc
+*.pyo
+*.pyd
+__pycache__/
+*.db
+*.sqlite3
+venv/
+.env
+
+env/
+
+# Flask-specific
+instance/
+*.log
+
+# IDE-related files
+.vscode/
+.idea/
+
+# OS-related files
+.DS_Store
+Thumbs.db
+
+# Test-related
+.coverage
+nosetests.xml
+coverage.xml
+*.cover
+
+# PyCharm related
+*.iml
+.idea/
+
+# Jupyter Notebook files
+.ipynb_checkpoints
+
+# Pycharm & VSCode
+.vscode/
+*.swp
+
+# Distribution / Packaging
+.Python
+build/
+dist/
+*.egg-info
+.eggs/
